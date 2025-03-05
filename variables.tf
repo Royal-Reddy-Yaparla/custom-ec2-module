@@ -11,6 +11,7 @@ variable "ec2_tags" {
   default = {
     Name = "fusion"
     Project = "fusion"
+    Environment = "development"
     Component = "CICD"
     Managed_By = "Royal"
     Terraform = true
@@ -38,6 +39,7 @@ variable "security_group_tag" {
     Project = "fusion"
     Component = "CICD"
     Managed_By = "Royal"
+    Environment = "development"
     Terraform = true
   }
 }
